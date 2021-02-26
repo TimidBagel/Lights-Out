@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2684835200441873310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2684835200441873280}
+  - component: {fileID: 2684835200441873281}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2684835200441873280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684835200441873310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 936.7088, y: 447.31305, z: -173.95233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2684835200441873281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684835200441873310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e89212af5a6cb47a5340c9a9d8d2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Select
+    clip: {fileID: 8300000, guid: b8f15c669ee6f674ab17498890b855f7, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+  - name: Hurt
+    clip: {fileID: 8300000, guid: a14da7c8c77fb514d83380089166f137, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+  - name: Pickup
+    clip: {fileID: 8300000, guid: c6853eb858bc0324380187ae86f6e4c2, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+  - name: Explosion
+    clip: {fileID: 8300000, guid: e7c948cf684cc9342ac372014cc41979, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+  - name: Player Death
+    clip: {fileID: 8300000, guid: 1625e2f438832fd45b3ca848a2cc8436, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 15cb310baf3a22c4da82dc693aaadc30, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
